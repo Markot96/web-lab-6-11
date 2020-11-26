@@ -1,0 +1,55 @@
+.Home {
+    height: 830px;
+    background: #DAF1F5;
+    display: flex;
+    flex-direction: column;
+}
+
+.CompanyTile {
+    background-color: #FFFFFF;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.CompanyTile1 {
+    background-color: #DAF1F5;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.SoftserveLogo {
+    width: 598.96px;
+    height: 180px;
+}
+
+.ViewMoreBtnWrapper {
+    height: 230px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.ViewMoreBtn {
+    width: 240px;
+    height: 80px;
+    left: 840px;
+    top: 775px;
+    background: #68B8C7;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
