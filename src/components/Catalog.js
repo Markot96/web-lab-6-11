@@ -1,28 +1,28 @@
 import React from "react";
 import '../styles/Catalog.css';
-import SoftserveLogo from '../assets/SoftServe.png'
+import VacancyCard from "./VacancyCard";
+import data from '../data/data.js'
 
 function Catalog() {
+
     return (
         <div className="Home">
             <div className="CompanyTiles">
 
-                <a href="/" className="CompanyTile">
-                    <img src={SoftserveLogo} className="SoftserveLogo" alt="softserve" />
-                </a>
-                <a href="/" className="CompanyTile">
-                    <img src={SoftserveLogo} className="SoftserveLogo" alt="softserve" />
-                </a>
-                <a href="/" className="CompanyTile">
-                    <img src={SoftserveLogo} className="SoftserveLogo" alt="softserve" />
-                </a>
-                
-            </div>
-            <div className="ViewMoreBtnWrapper">
-                <a href="/" className="ViewMoreBtn">View More</a>
+                {data.vacancies.map((item) => {
+                    return (
+                    <VacancyCard
+                        key={item.id}
+                        info={item} />
+
+                    );
+                })}
+
             </div>
         </div>
     );
+
 }
+
 
 export default Catalog;
