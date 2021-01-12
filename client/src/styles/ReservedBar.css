@@ -1,0 +1,38 @@
+.ReservedBarWrapper {
+    height: 100%;
+    background: #DAF1F5;
+    display: flex;
+    flex-direction: column;
+}
+
+.ReservedBar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #779fb6;
+    height: 100px;
+    margin: 25px 0;
+}
+
+.LeftReservedBar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 800px;
+}
+
+.ReduceItem {
+    padding: 4px;
+    border: solid 2px black;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+}
+
+.ItemDescription {
+    color: white;
+    margin: 0;
+    font-size: 24px;
+}

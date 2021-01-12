@@ -1,0 +1,65 @@
+.CheckoutWrapper {
+    height: 100%;
+    background: #DAF1F5;
+    display: flex;
+    flex-direction: column;
+}
+
+.TitleStyled {
+    font-family: "OpenSans-Light";
+    font-size: 41px;
+    letter-spacing: 13px;
+    text-transform: uppercase;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: #020243;
+    text-align: center;
+}
+
+.FormStyled {
+    padding-bottom: 0px;
+}
+
+.InputContainerCheckout {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 700px;
+    font-family: "OpenSans-Light";
+}
+
+.InputContainer textarea {
+    width: 300px;
+    max-height: 200px;
+    min-height: 50px;
+}
+
+.InputComponent {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    position: relative;
+}
+
+.InputComponent {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    position: relative;
+}
+
+.ButtonWrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 25px;
+}
+
+.ContinueBtn {
+    font-size: 30px;
+    /* text-align: right; */
+    color: #000;
+    background-color: rgb(123, 243, 102);
+    cursor: pointer;
+    border-radius: 5px;
+}

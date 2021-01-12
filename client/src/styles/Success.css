@@ -1,0 +1,18 @@
+.CartContainer {
+    max-width: 1366px;
+    margin: 0 auto;
+}
+
+.ButtonSuccessWrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.ButtonSuccess {
+    font-size: 30px;
+    width: 170px;
+    color: #000;
+    background-color:rgb(180, 173, 240);
+    border-radius: 5px;
+}
