@@ -1,0 +1,65 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.ItemHeading {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 100%;
+    padding: 60px 70px;
+}
+
+.ItemHeadingDescriptionWrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.ItemHeadingDescription {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    text-align: left;
+    color: rgb(163, 163, 163);
+    font-size: 14px;
+}
+
+.ItemHeadingDescriptionTitle {
+    font-size: 30px;
+    text-align: left;
+    color: #000;
+}
+
+.ItemHeadingDescriptionText {
+    width: 400px;
+    font-size: 17px;
+    text-align: left;
+    color: #000;
+}
+
+.ItemBtnWrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100px;
+}
+
+.AddToCartBtn {
+    font-size: 30px;
+    text-align: right;
+    color: #000;
+    background-color: rgb(123, 243, 102);
+    margin-left: 260px;
+    padding-right: 17px;
+    padding-left: 17px;
+    border-radius: 5px;
+}
+
+.GoBackBtn {
+    margin-left: 305px;
+    padding-right: 17px;
+}

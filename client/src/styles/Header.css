@@ -1,0 +1,40 @@
+.Header {
+    background-color: #8583E1;
+    height: 100px;
+}
+
+.HeaderWrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1030px;
+}
+
+.NavBar {
+    width: 600px;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+}
+
+.NavBar a{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.ActiveButton {
+    height: 65px;
+    width: 165px;
+    background: #6766AE;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 40px;
+}
+

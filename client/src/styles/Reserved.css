@@ -1,0 +1,31 @@
+.Reserved {
+    height: 100%;
+    background: #DAF1F5;
+    display: flex;
+    flex-direction: column;
+    min-height: 600px;
+}
+
+.ReservedBtnWrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 120px;
+    margin-bottom: 25px;
+}
+
+.ContinueBtn {
+    font-size: 30px;
+    color: #000;
+    background-color: rgb(123, 243, 102);
+    border-radius: 5px;
+    height: 50px;
+    width: 190px;
+}
+
+.CountText {
+    margin-bottom: 10px;
+    width: 250px;
+    font-size: 24px;
+}

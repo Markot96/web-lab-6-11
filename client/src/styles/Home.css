@@ -1,0 +1,87 @@
+.Home {
+    /* height: 100%; */
+    background: #DAF1F5;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top: 100px;
+}
+
+.Heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    padding: 0 50px;
+}
+
+.Offices {
+    width: 449.69px;
+    height: 300px;
+}
+
+.HeadingDescription {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+    width: 500px;
+    text-align: left;
+}
+
+.ContentWrapper{
+    display: flex;
+    flex-direction: column;
+}
+
+.CompanyTiles {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.SoftserveLogo {
+    width: 300px;
+    height: 90.16px;
+}
+
+.IntelliasLogo {
+    width: 350px;
+    height: 124.95px;
+}
+
+.EleksLogo {
+    width: 200px;
+    height: 65.42px;
+}
+
+.ViewMoreBtnWrapper {
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.ViewMoreBtn {
+    width: 240px;
+    height: 80px;
+    left: 840px;
+    top: 775px;
+    background: #68B8C7;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    color: #FFFFFF;
+    text-decoration: none;
+}

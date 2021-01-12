@@ -1,0 +1,94 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.item {
+    width: 325px;
+    height: 490px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    position: relative;
+    overflow: hidden;
+    margin: 20px;
+}
+
+.details-wrapper {
+    background-color: #fff;
+    position: relative;
+    padding: 10px;
+    transition: all 200ms ease-in-out;
+    bottom: 5px;
+}
+
+.details-title {
+    font-size: 22px;
+    color: #202020;
+
+}
+
+.details-info {
+    font-size: 16px;
+    color: #606060;
+    height: 30px;
+}
+
+.details-footer {
+    display: flex;
+    justify-content: space-between;
+    font-size: 24px;
+}
+
+.details-footer .salary {
+    color: rgb(245, 81, 95);
+}
+
+/* Animation */
+
+.item:hover .img-overlay {
+    opacity: 0.5;
+    transition: opacity 200ms ease-in-out;
+}
+
+.img-overlay {
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    position: absolute;
+    top: 0;
+    opacity: 0;
+    transition: opacity 200ms ease-in-out;
+}
+
+.item:hover .btn {
+    opacity: 1;
+    padding: 10px 25px;
+    transition: all 500ms ease-in-out;
+    display: block;
+}
+
+.btn {
+    left: 40px;
+    position: absolute;
+    top: 150px;
+    border: 1px solid #fff;
+    border-radius: 20px;
+    background-color: transparent;
+    color: #fff;
+    width: 240px;
+    height: 80px;
+    transition: all 500ms ease-in-out;
+    display: none;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.item:hover .details-wrapper {
+    bottom: 38px;
+    transition: all 200ms ease-in-out;
+}

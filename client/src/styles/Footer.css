@@ -1,0 +1,53 @@
+.Footer {
+    background-color: #8583E1;
+    height: 150px;
+    margin: 0 400px;
+    width: 1120px;
+    margin: 0 auto;
+}
+
+.FooterWrapper {
+    width: 1000px;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.FooterLine {
+    height: 1px;
+    width: 1000px;
+    background-color: black;
+}
+
+.Copyright {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+    margin: 20 0;
+}
+
+.UpperFooter {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 1000px;
+}
+
+.Socials {
+    width: 170px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 220px;
+}
+
+.Facebook {
+    height: 30px;
+    width: 30px;
+}
